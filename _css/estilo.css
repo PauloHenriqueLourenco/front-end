@@ -1,0 +1,148 @@
+div.container-fluid {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+h3 {
+    padding-bottom: 15px;
+}
+
+input[type] {
+    font-family: sans-serif;
+    font-size: 16px;
+    padding: 0;
+    border: none;
+    border-bottom: 2px solid darkred;
+    font-weight: 550;
+}
+
+select[id]{
+    font-family: sans-serif;
+    font-size: 16px;
+    padding: 0;
+    border: none;
+    border-bottom: 2px solid darkred;
+    font-weight: 550;
+}
+
+a.caixa {
+    padding: 5px;;
+    color:darkred;
+    border: 1px solid;
+    text-align: center;
+    font-weight: 550;
+    margin-top: 30px;
+    display: block;
+    border-radius: 3px;
+    font-size: 13px;
+}
+
+label {
+    font-weight: normal;
+    font-size: 12;
+}
+
+div.cartao{
+    margin-top: 40px;
+}
+
+.input-group-addon{
+    border: none;
+    background: none;
+}
+
+div.cartao input#mes, input#ano, div#codseguranca {
+    width: 25%;
+    float: left;
+}
+
+div.cartao input#ano, div#codseguranca{
+    margin-left: 15px;
+}
+
+a.esquerda, a.direita{
+    text-decoration: none;
+    width: 45%;
+}
+
+a.esquerda{
+    float: left;
+}
+
+a.direita{
+    float: right;
+}
+
+.pedido {
+    display:inline-block;
+}
+
+.pedido div#produto, div#quantidade, div#preco {
+    width: 25%;
+    float: left;
+}
+
+.pedido div#quantidade {
+    margin-left: 15px;
+}
+
+.pedido div#preco {
+    width: 25%;
+    float:right;
+}
+
+input#cupom {
+    float: right;
+    width: 50%;
+    margin-left: 20px;
+    border: 1px solid darkred;
+}
+
+input#total {
+    border: none;
+    width: 25%;
+    float: right;
+
+}
+
+a#litermodeuso {
+    text-decoration: underline;
+}
+
+p, h1 { 
+    font-weight: 550;
+    margin-bottom: 0; 
+    text-align: center; 
+    font-family:Arial,sans-serif;
+}
+
+img.icone {
+    max-width: 150px; 
+    margin:0 auto; 
+    display: block;
+}
+
+div.beneficios {
+    position: relative;
+    float: right;
+}
+
+div.beneficios p{
+    position: absolute;
+    top: 50;
+    text-decoration: none;
+    font-weight: normal;
+    text-align: inherit;
+}
+
+.beneficio img {
+    margin: auto;
+}
+
+.row {
+    margin-top: 50px;
+}
+
+span#preco {
+    color: red;
+}
